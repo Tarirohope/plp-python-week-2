@@ -15,6 +15,6 @@ my_list.append(40)
 my_list[1] = 15
 another_list = [50, 60, 70]
 my_list.extend(another_list)
-print(my_list[-1])
+my_list.pop(-1)
 print(my_list.index(30))
 print(my_list)
